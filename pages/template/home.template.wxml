@@ -1,0 +1,20 @@
+
+<template name="homeTem">
+  <view class="container1">
+    <view class="header">
+      <image src="{{avatar}}"></image>
+      <text>{{date}}</text>
+    </view>
+    <view class="author"><text>{{title}}</text></view>
+    <image class="centerImages" src="{{headImgSrc}}"></image>
+    <view class="content">
+      <text class="context">{{detail_content}}</text>
+    </view>
+    <view class="footer">
+      <image src="{{detail_love_image1}}"></image>
+      <text>{{love_count}}</text>
+      <image src="{{detail_love_image2}}"></image>
+      <text>{{attention_count}}</text>
+    </view>
+  </view>
+</template>

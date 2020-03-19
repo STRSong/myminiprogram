@@ -1,0 +1,24 @@
+<!--pages/home/home.wxml-->
+<import src="/pages/template/home.template.wxml"/>
+
+<view>
+  <swiper indicator-dots indicator-color indicator-active-color="#FF6699" autoplay interval="4000" circular>
+    <swiper-item>
+      <image src="/images/detail/carousel/01.jpg"></image>
+    </swiper-item>
+        <swiper-item>
+      <image src="/images/detail/carousel/02.jpg"></image>
+    </swiper-item>
+        <swiper-item>
+      <image src="/images/detail/carousel/03.jpg"></image>
+    </swiper-item>
+        <swiper-item>
+      <image src="/images/detail/carousel/04.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for='{{listArr}}' wx:key='{{index}}'>
+    <view catchtap="toDetail" data-index="{{index}}">
+      <template is="homeTem" data="{{...item}}"/>
+    </view>
+  </block>
+</view>

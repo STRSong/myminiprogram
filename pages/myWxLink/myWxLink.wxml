@@ -1,0 +1,3 @@
+<!--pages/myWxLink/myWxLink.wxml-->
+<text>正在前往...</text>
+<web-view src='https://baidu.com'></web-view>

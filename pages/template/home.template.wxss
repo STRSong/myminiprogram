@@ -1,0 +1,76 @@
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  padding-top: 60rpx;
+  padding-bottom: 60rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.header{
+  width: 100%;
+}
+
+.header image{
+  text-align: left;
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.header text{
+  font-size: 32rpx;
+}
+
+.author{
+  width: 100%;
+}
+.author text{
+  margin-left: 10rpx;
+  color:  powderblue;
+  font-size: 30rpx;
+  font-weight: 300;
+}
+
+.centerImages{
+  width: 100%;
+  height: 460rpx;
+}
+
+.content{
+  width: 100%;
+  padding-top: 10rpx;
+}
+
+.context{
+  padding-left: 32rpx;
+  font-size: 32rpx;
+  /* text-indent: 32rpx;失效 */
+}
+
+.footer{
+  width: 100%;
+  padding-top: 10rpx;
+}
+
+.footer image{
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  
+}
+
+.footer text{
+  font-size: 28rpx;
+  margin-right: 10rpx;
+}
+
+
+
+
+
+

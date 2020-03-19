@@ -1,0 +1,38 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  background-color: #FF6699;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color:white;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.goStart{
+  margin-top: 20px;
+  width: 200rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  border: 1rpx solid #aaa;
+  border-radius: 10rpx; /*边框圆角*/
+  text-align: center;
+  line-height: 80rpx;
+  color: white;
+}
